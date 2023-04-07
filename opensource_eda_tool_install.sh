@@ -97,13 +97,13 @@ sudo apt-get install tcllib --assume-yes
 
 sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y
 sudo apt-get update
-sudo apt-get install gcc-8 g++-8 --assume-yes
-cd /usr/bin
-sudo rm -rf g++
-sudo ln -s g++-8 /usr/bin/g++
-sudo rm -rf gcc
-sudo ln -s gcc-8 /usr/bin/gcc
-cd -
+#sudo apt-get install gcc-8 g++-8 --assume-yes
+#cd /usr/bin
+#sudo rm -rf g++
+#sudo ln -s g++-8 /usr/bin/g++
+#sudo rm -rf gcc
+#sudo ln -s gcc-8 /usr/bin/gcc
+#cd -
 sudo apt-get install iverilog
 sudo apt-get install gtkwave
 git clone https://github.com/OpenTimer/OpenTimer.git
