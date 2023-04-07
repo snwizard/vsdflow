@@ -8,6 +8,8 @@ sudo apt-get install build-essential bison flex \
 	libreadline-dev gawk tcl-dev tk-dev libffi-dev git \
 	graphviz xdot pkg-config python3 --assume-yes
 sudo apt install libglu1-mesa-dev freeglut3-dev --assume-yes
+sudo apt-get reinstall gcc
+sudo apt-get reinstall g++
 wget "https://github.com/Kitware/CMake/releases/download/v3.13.0/cmake-3.13.0.tar.gz"
 tar -xvzf cmake-3.13.0.tar.gz
 cd cmake-3.13.0/
